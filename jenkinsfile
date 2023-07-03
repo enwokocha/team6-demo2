@@ -10,7 +10,7 @@ pipeline{
 		stage('2-s2'){
 			steps{
 				sh 'lscpu'
-				sh 'logname'
+				sh 'whoami'
 			}
 		}
 		stage('3-s3'){
